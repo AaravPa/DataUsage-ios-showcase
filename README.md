@@ -2,12 +2,6 @@
 
 Data Usage is a native iOS utility for monitoring cellular and Wi-Fi consumption across billing periods. The original product combines quota tracking, historical usage, custom counters, CSV/email export, StoreKit Pro upgrades, background refresh, and Today widgets.
 
-## Usage home
-
-Sample figures on the documented iOS usage home: the current plan, remaining quota, history, custom counters, and the Today widget.
-
-![iOS usage home](docs/screenshots/usage.png)
-
 This repository is the recruiter-friendly overview. The complete modernized source is available in [`AaravPa/DataUsage`](https://github.com/AaravPa/DataUsage).
 
 ## Why this project is technically interesting
