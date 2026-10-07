@@ -2,7 +2,7 @@
 
 Data Usage is a native iOS utility for monitoring cellular and Wi-Fi consumption across billing periods. The original product combines quota tracking, historical usage, custom counters, CSV/email export, StoreKit Pro upgrades, background refresh, and Today widgets.
 
-This repository is the recruiter-friendly overview. The complete modernized source is available in [`AaravPa/DataUsage`](https://github.com/AaravPa/DataUsage).
+This repository is the recruiter-friendly overview. The complete modernized source is maintained separately in the private [`AaravPa/DataUsage-private`](https://github.com/AaravPa/DataUsage-private) repository.
 
 ## Why this project is technically interesting
 
@@ -55,7 +55,7 @@ xcodebuild \
   build
 ```
 
-The project has no XCTest target. A signed device is still required to validate cellular counters, background/location refresh, App Group provisioning, and live StoreKit behavior. See [`docs/TESTING.md`](https://github.com/AaravPa/DataUsage/blob/main/docs/TESTING.md) in the source repository for the full checklist.
+The project has no XCTest target. A signed device is still required to validate cellular counters, background/location refresh, App Group provisioning, and live StoreKit behavior. See `docs/TESTING.md` in the private source repository for the full checklist.
 
 ## Modernization scope
 
@@ -63,7 +63,7 @@ The migration deliberately focuses on buildability, dependency health, and behav
 
 ## Links
 
-- [Complete source repository](https://github.com/AaravPa/DataUsage)
-- [Architecture documentation](https://github.com/AaravPa/DataUsage/blob/main/docs/ARCHITECTURE.md)
-- [Behavior and invariants](https://github.com/AaravPa/DataUsage/blob/main/docs/PRODUCT_BEHAVIOR.md)
-- [Validation guide](https://github.com/AaravPa/DataUsage/blob/main/docs/TESTING.md)
+- [Complete source repository](https://github.com/AaravPa/DataUsage-private)
+- Architecture documentation — in the private source repository
+- Behavior and invariants — in the private source repository
+- Validation guide — in the private source repository
